@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+HTML, BODY {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    height: 100%; }
+  
+  H1, H2, H3, H4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 1;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 15px;
+    color: #3d3d3d; }
+    H1 em, H2 em, H3 em, H4 em {
+      color: #6e67ad;
+      font-style: normal;
+      font-weight: 500; }
+
 nav ul.main-nav li {
     padding: 0;
     margin: 0;
@@ -25,3 +44,14 @@ nav ul.main-nav li {
         nav ul.main-nav a.current {
             background: #262630;
         }
+H1 {
+  font-size: 48px; }
+
+H2 {
+  font-size: 36px; }
+
+H3 {
+  font-size: 32px; }
+
+H4 {
+  font-size: 24px; }
